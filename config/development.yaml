@@ -1,0 +1,7 @@
+server:
+    port: 8082
+auth:
+    jwksUri: "http://localhost:5501/.well-known/jwks.json"
+database:
+    url: "mongodb://ramandahiya:ramandahiya@127.0.0.1:27017/base?authSource=admin&w=1"
+
